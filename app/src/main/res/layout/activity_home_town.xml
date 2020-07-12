@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/night123"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.weather.HomeTown">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cityname"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="93dp"
+        android:text="Enter HomeTown"
+        android:textAlignment="center"
+        android:textColor="@color/textcolor"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cityname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:hint="Enter City Name"
+        android:textColor="@color/textcolor"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textColorHint="@color/textcolor" />
+
+    <Button
+        android:id="@+id/addbtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="128dp"
+        android:background="@drawable/custom_dialog2"
+        android:text="ADD"
+        android:textColor="@color/textcolor" />
+
+    <!--<Button-->
+        <!--android:id="@+id/add"-->
+        <!--style="@style/Widget.AppCompat.Button.Colored"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/cityname"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="60dp"-->
+        <!--android:elevation="0dp"-->
+        <!--android:text="Add" />-->
+</RelativeLayout>
